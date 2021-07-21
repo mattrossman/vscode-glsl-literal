@@ -1,12 +1,17 @@
-vscode-glsl-literal
-====================
+Personal copy of [`boyswan/vscode-glsl-literal`](https://github.com/boyswan/vscode-glsl-literal) with additional bugfix from [`aoitaku`](https://github.com/aoitaku/vscode-glsl-literal)
+
+This patches support for the `/* glsl */` prefix.
+
+Original README:
+
+# vscode-glsl-literal
 
 Adds GLSL syntax highlighting for JavaScript template literals.
 
-## Match on 
+## Match on
 
 ```js
-glsl`` | glslify`` | frag`` | vert``
+glsl`` | glslify`` | frag`` | vert``;
 ```
 
 ## Example
@@ -20,7 +25,6 @@ const vert = glsl`
     gl_Position = uProjectionMatrix * uModelViewMatrix * aVertexPosition;
   }
 `;
-
 ```
 
 ## Caveat
@@ -28,6 +32,5 @@ const vert = glsl`
 If you're not using glslify or another glsl processing library, you will need an identity function named as above to match the syntax.
 
 ```js
-const glsl = x => x;
+const glsl = (x) => x;
 ```
-

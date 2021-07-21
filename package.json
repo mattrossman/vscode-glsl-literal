@@ -3,9 +3,9 @@
   "displayName": "glsl-literal",
   "description": "Syntax highlighting for GLSL inside of JavaScript tagged template strings",
   "version": "1.0.5",
-  "publisher": "boyswan",
+  "publisher": "mattrossman",
   "repository": {
-    "url": "https://github.com/boyswan/vscode-glsl-literal.git"
+    "url": "https://github.com/mattrossman/vscode-glsl-literal.git"
   },
   "bugs": {
     "url": "https://github.com/boyswan/vscode-glsl-literal/issues"
